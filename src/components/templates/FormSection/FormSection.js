@@ -15,7 +15,7 @@ function FormSection() {
   const settings = {
     width: 550,
     height: 380,
-    image: 'img/overlay.png',
+    image: `${process.env.PUBLIC_URL}/img/overlay.png`,
     finishPercent: 50,
     onComplete: () => showMessage(),
   };
@@ -43,7 +43,11 @@ function FormSection() {
               </MessageWrapper>
             ) : (
               <ScratchCard {...settings}>
-                <img data-testid="scratch" src="/img/lose-1.png" alt="" />
+                <img
+                  data-testid="scratch"
+                  src={`${process.env.PUBLIC_URL}/img/lose-1.png`}
+                  alt=""
+                />
               </ScratchCard>
             )}
           </Column>
