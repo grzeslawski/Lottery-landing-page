@@ -1,6 +1,7 @@
 {
   "name": "base-lottery",
   "version": "0.1.0",
+  "homepage": "https://grzeslawski.github.io/Lottery-landing-page/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -22,7 +23,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --testPathIgnorePatterns=src/e2e",
     "test:e2e": "cypress open --project ./src/e2e",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "src/**/*.{js,json}": [
@@ -54,6 +57,7 @@
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-prettier": "^3.3.1",
+    "gh-pages": "^3.2.3",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1"
