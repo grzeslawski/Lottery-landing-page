@@ -2,6 +2,10 @@
 
 This project is fully responsive, in form section has two scratch in modal after completing the form, unfortunately scratch in modal not working possibly by react portal. Next to form is a second scratch card.
 
+# Online:
+
+https://grzeslawski.github.io/Lottery-landing-page/
+
 ## Available Scripts
 
 In the project directory, you can run:
