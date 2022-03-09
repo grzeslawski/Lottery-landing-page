@@ -36,7 +36,7 @@ function FormSection() {
             {isScratched ? (
               <MessageWrapper>
                 <Confetti width="1000px" height="1000px" />
-                <h3>Wygrałeś możliwość ponownego</h3>
+                <h3>Wygrałeś możliwość ponownego zagrania:)</h3>
                 <Button onClick={() => setIsScratched(false)}>
                   zagraj ponownie
                 </Button>
