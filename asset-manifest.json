@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/Lottery-landing-page/static/js/main.ed212dc3.js",
+    "main.js": "/Lottery-landing-page/static/js/main.369cf2ef.js",
     "static/media/logo.svg": "/Lottery-landing-page/static/media/logo.134e3da122389f265fb3959ed5b97264.svg",
     "index.html": "/Lottery-landing-page/index.html",
-    "main.ed212dc3.js.map": "/Lottery-landing-page/static/js/main.ed212dc3.js.map"
+    "main.369cf2ef.js.map": "/Lottery-landing-page/static/js/main.369cf2ef.js.map"
   },
   "entrypoints": [
-    "static/js/main.ed212dc3.js"
+    "static/js/main.369cf2ef.js"
   ]
 }
